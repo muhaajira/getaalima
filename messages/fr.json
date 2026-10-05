@@ -1,0 +1,120 @@
+{
+  "common": {
+    "brand": "GetAalima",
+    "tagline": "Le foyer serein de votre institut",
+    "signIn": "Connexion",
+    "signOut": "Déconnexion",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "create": "Créer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "search": "Rechercher",
+    "actions": "Actions",
+    "status": "Statut",
+    "date": "Date",
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirm": "Confirmer"
+  },
+  "login": {
+    "heading": "Bienvenue sur GetAalima",
+    "subheading": "Connectez-vous pour gérer votre institut en toute sérénité",
+    "emailPlaceholder": "vous@institut.com",
+    "passwordPlaceholder": "Votre mot de passe",
+    "submit": "Se connecter",
+    "submitting": "Connexion en cours...",
+    "footer": "Chaque élève, chaque leçon, doucement mise en ordre."
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "students": "Élèves",
+    "classes": "Classes",
+    "attendance": "Présences",
+    "finance": "Finances",
+    "marketing": "Marketing",
+    "voice": "Plateforme vocale",
+    "support": "Assistance",
+    "notifications": "Notifications"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "La paix soit avec vous. Voici l'état de votre institut.",
+    "totalStudents": "Total des élèves",
+    "totalTeachers": "Enseignantes",
+    "totalRevenue": "Recettes collectées",
+    "activeStudents": "Actives ce mois-ci",
+    "recentActivity": "Activités récentes",
+    "noActivity": "Les activités apparaîtront ici au fil du travail de votre équipe."
+  },
+  "students": {
+    "title": "Élèves",
+    "newStudent": "Nouvelle élève",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "dob": "Date de naissance",
+    "gender": "Genre",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "level": "Niveau",
+    "studentId": "Numéro d'élève"
+  },
+  "classes": {
+    "title": "Classes",
+    "newClass": "Nouvelle classe",
+    "className": "Nom de la classe",
+    "teacher": "Enseignante",
+    "schedule": "Horaire",
+    "capacity": "Capacité"
+  },
+  "attendance": {
+    "title": "Présences",
+    "present": "Présente",
+    "absent": "Absente",
+    "late": "En retard",
+    "excused": "Excusée",
+    "markToday": "Marquer les présences du jour"
+  },
+  "finance": {
+    "title": "Finances",
+    "invoices": "Factures",
+    "payments": "Paiements",
+    "expenses": "Dépenses",
+    "recordPayment": "Enregistrer un paiement"
+  },
+  "marketing": {
+    "title": "Marketing",
+    "campaigns": "Campagnes",
+    "tasks": "Tâches",
+    "newTask": "Nouvelle tâche"
+  },
+  "voice": {
+    "title": "Plateforme vocale",
+    "subtitle": "Espaces vocaux sécurisés réservés aux sœurs, pour les leçons et cercles",
+    "sessions": "Sessions",
+    "library": "Bibliothèque audio",
+    "rooms": "Salons en direct",
+    "newSession": "Planifier une session",
+    "joinRoom": "Rejoindre le salon",
+    "micOn": "Micro actif",
+    "muted": "Couper le micro",
+    "record": "Enregistrer",
+    "stop": "Arrêter",
+    "leave": "Quitter",
+    "recordingLocal": "Enregistrement local sur votre appareil...",
+    "secureSpace": "Espace vocal sécurisé réservé aux femmes",
+    "inThisRoom": "Dans ce salon",
+    "you": "Vous (hôte)",
+    "connecting": "Connexion au salon vocal sécurisé...",
+    "connectionError": "Échec de la connexion. Vérifiez votre configuration LiveKit."
+  },
+  "support": {
+    "title": "Assistance",
+    "tickets": "Tickets",
+    "newTicket": "Nouveau ticket",
+    "subject": "Sujet",
+    "priority": "Priorité"
+  }
+}

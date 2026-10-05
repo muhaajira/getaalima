@@ -1,0 +1,120 @@
+{
+  "common": {
+    "brand": "عالِمة",
+    "tagline": "المنزل الهادئ لمؤسستك التعليمية",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "loading": "جارٍ التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "create": "إنشاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "search": "بحث",
+    "actions": "إجراءات",
+    "status": "الحالة",
+    "date": "التاريخ",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirm": "تأكيد"
+  },
+  "login": {
+    "heading": "أهلاً بك في عالِمة",
+    "subheading": "سجّلي دخولكِ لإدارة مؤسستك بسلام واطمئنان",
+    "emailPlaceholder": "you@institute.com",
+    "passwordPlaceholder": "كلمة مروركِ",
+    "submit": "دخول",
+    "submitting": "جارٍ تسجيل الدخول...",
+    "footer": "كل طالبة، وكل درس، محفوظٌ بالهدوء والنظام."
+  },
+  "nav": {
+    "dashboard": "الرئيسية",
+    "students": "الطالبات",
+    "classes": "الفصول",
+    "attendance": "الحضور",
+    "finance": "المالية",
+    "marketing": "التسويق",
+    "voice": "منصة الصوتيات",
+    "support": "الدعم",
+    "notifications": "الإشعارات"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "السلام عليكِ. هذا حال مؤسستك اليوم.",
+    "totalStudents": "إجمالي الطالبات",
+    "totalTeachers": "المعلمات",
+    "totalRevenue": "الإيرادات المحصّلة",
+    "activeStudents": "نشاط هذا الشهر",
+    "recentActivity": "آخر النشاطات",
+    "noActivity": "ستظهر هنا نشاطات فريقك مع العمل."
+  },
+  "students": {
+    "title": "الطالبات",
+    "newStudent": "طالبة جديدة",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "dob": "تاريخ الميلاد",
+    "gender": "النوع",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "level": "المستوى",
+    "studentId": "رقم الطالبة"
+  },
+  "classes": {
+    "title": "الفصول",
+    "newClass": "فصل جديد",
+    "className": "اسم الفصل",
+    "teacher": "المعلمة",
+    "schedule": "الجدول",
+    "capacity": "السعة"
+  },
+  "attendance": {
+    "title": "الحضور",
+    "present": "حاضرة",
+    "absent": "غائبة",
+    "late": "متأخرة",
+    "excused": "معذورة",
+    "markToday": "تسجيل حضور اليوم"
+  },
+  "finance": {
+    "title": "المالية",
+    "invoices": "الفواتير",
+    "payments": "المدفوعات",
+    "expenses": "المصاريف",
+    "recordPayment": "تسجيل دفعة"
+  },
+  "marketing": {
+    "title": "التسويق",
+    "campaigns": "الحملات",
+    "tasks": "المهام",
+    "newTask": "مهمة جديدة"
+  },
+  "voice": {
+    "title": "منصة الصوتيات",
+    "subtitle": "مساحات صوتية آمنة حصراً لأختنا للدروس والحلق",
+    "sessions": "الجلسات",
+    "library": "المكتبة الصوتية",
+    "rooms": "الغرف المباشرة",
+    "newSession": "جدولة جلسة",
+    "joinRoom": "انضمي للغرفة",
+    "micOn": "الميكروفون يعمل",
+    "muted": "صامت",
+    "record": "تسجيل",
+    "stop": "إيقاف",
+    "leave": "مغادرة",
+    "recordingLocal": "جارٍ التسجيل محلياً على جهازك...",
+    "secureSpace": "مساحة صوتية آمنة خاصة بالأخوات",
+    "inThisRoom": "في هذه الغرفة",
+    "you": "أنتِ (المضيفة)",
+    "connecting": "جارٍ الاتصال بالغرفة الآمنة...",
+    "connectionError": "تعذّر الاتصال. تأكدي من إعدادات LiveKit."
+  },
+  "support": {
+    "title": "الدعم",
+    "tickets": "التذاكر",
+    "newTicket": "تذكرة جديدة",
+    "subject": "الموضوع",
+    "priority": "الأولوية"
+  }
+}

@@ -1,18 +1,11 @@
-import './globals.css'
+import "./globals.css";
 
-export const metadata = {
-  title: 'Education SaaS',
-  description: 'Management system for educational centers',
-}
-
+// Minimal root layout — the <html>/<body> tags live in [locale]/layout.tsx
+// so each language can set its own lang and dir (rtl for Arabic).
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
+    return <>{children}</>;
 }

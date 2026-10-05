@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "livekit-client": "^2.x",
     "@supabase/supabase-js": "^2.39.0",
+    "livekit-client": "^2.x",
     "next": "14.0.4",
+    "next-intl": "^4.14.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

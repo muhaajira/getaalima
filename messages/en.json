@@ -1,0 +1,120 @@
+{
+  "common": {
+    "brand": "GetAalima",
+    "tagline": "The calm home for your institute",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "name": "Name",
+    "email": "Email address",
+    "password": "Password",
+    "confirm": "Confirm"
+  },
+  "login": {
+    "heading": "Welcome to GetAalima",
+    "subheading": "Sign in to manage your institute with peace of mind",
+    "emailPlaceholder": "you@institute.com",
+    "passwordPlaceholder": "Your password",
+    "submit": "Sign in",
+    "submitting": "Signing in...",
+    "footer": "Every student, every lesson, gently kept in order."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "students": "Students",
+    "classes": "Classes",
+    "attendance": "Attendance",
+    "finance": "Finance",
+    "marketing": "Marketing",
+    "voice": "Voice Platform",
+    "support": "Support",
+    "notifications": "Notifications"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Peace be with you. Here is how your institute is doing.",
+    "totalStudents": "Total Students",
+    "totalTeachers": "Teachers",
+    "totalRevenue": "Revenue Collected",
+    "activeStudents": "Active This Month",
+    "recentActivity": "Recent Activity",
+    "noActivity": "Activity will appear here as your team works."
+  },
+  "students": {
+    "title": "Students",
+    "newStudent": "New Student",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "dob": "Date of birth",
+    "gender": "Gender",
+    "phone": "Phone",
+    "address": "Address",
+    "level": "Level",
+    "studentId": "Student ID"
+  },
+  "classes": {
+    "title": "Classes",
+    "newClass": "New Class",
+    "className": "Class name",
+    "teacher": "Teacher",
+    "schedule": "Schedule",
+    "capacity": "Capacity"
+  },
+  "attendance": {
+    "title": "Attendance",
+    "present": "Present",
+    "absent": "Absent",
+    "late": "Late",
+    "excused": "Excused",
+    "markToday": "Mark today's attendance"
+  },
+  "finance": {
+    "title": "Finance",
+    "invoices": "Invoices",
+    "payments": "Payments",
+    "expenses": "Expenses",
+    "recordPayment": "Record Payment"
+  },
+  "marketing": {
+    "title": "Marketing",
+    "campaigns": "Campaigns",
+    "tasks": "Tasks",
+    "newTask": "New Task"
+  },
+  "voice": {
+    "title": "Voice Platform",
+    "subtitle": "Secure voice-only spaces for sisters' lessons and circles",
+    "sessions": "Sessions",
+    "library": "Audio Library",
+    "rooms": "Live Rooms",
+    "newSession": "Schedule Session",
+    "joinRoom": "Join Room",
+    "micOn": "Mic On",
+    "muted": "Muted",
+    "record": "Record",
+    "stop": "Stop",
+    "leave": "Leave",
+    "recordingLocal": "Recording locally on your device...",
+    "secureSpace": "Secure Women-Only Voice Space",
+    "inThisRoom": "In this room",
+    "you": "You (Host)",
+    "connecting": "Connecting to secure voice room...",
+    "connectionError": "Failed to connect. Check your LiveKit configuration."
+  },
+  "support": {
+    "title": "Support",
+    "tickets": "Tickets",
+    "newTicket": "New Ticket",
+    "subject": "Subject",
+    "priority": "Priority"
+  }
+}
