@@ -21,10 +21,11 @@ export default function DashboardPage() {
                     .select('*', { count: 'exact', head: true })
 
                 // Fetch teacher count
+                const { data: teacherRole } = await supabase.from('roles').select('id').eq('name', 'Teacher').single()
                 const { count: teacherCount } = await supabase
                     .from('users')
                     .select('*', { count: 'exact', head: true })
-                    .eq('role_id', (select) => select.from('roles').eq('name', 'teacher').select('id'))
+                    .eq('role_id', teacherRole?.id || 0)
 
                 // Fetch revenue (placeholder - will be implemented in finance phase)
                 const { data: payments } = await supabase
