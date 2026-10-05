@@ -64,16 +64,18 @@ export default function VoiceRoomPage() {
             const stream = new MediaStream()
             
             // Add local track
-            const localTrack = getRoom().localParticipant.getTrack(Track.Kind.Audio)
-            if (localTrack) {
-                stream.addTrack(localTrack.mediaStreamTrack)
+            const localPubs = Array.from(getRoom().localParticipant.trackPublications.values())
+            const localPub = localPubs.find((pub: any) => pub.kind === Track.Kind.Audio)
+            if (localPub?.track) {
+                stream.addTrack(localPub.track.mediaStreamTrack)
             }
 
             // Add remote tracks
             participants.forEach(p => {
-                const remoteTrack = p.getTrack(Track.Kind.Audio)
-                if (remoteTrack) {
-                    stream.addTrack(remoteTrack.mediaStreamTrack)
+                const remotePubs = Array.from(p.trackPublications.values())
+                const remotePub = remotePubs.find((pub: any) => pub.kind === Track.Kind.Audio)
+                if (remotePub?.track) {
+                    stream.addTrack(remotePub.track.mediaStreamTrack)
                 }
             })
 
@@ -194,3 +196,6 @@ export default function VoiceRoomPage() {
         </div>
     )
 }
+
+// Render on-demand (uses browser APIs + Supabase auth)
+export const dynamic = 'force-dynamic'

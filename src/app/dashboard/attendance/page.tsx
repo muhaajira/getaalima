@@ -88,3 +88,6 @@ export default function AttendancePage() {
         fetchAttendance(selectedDate)
     }
 }
+
+// Render on-demand (uses browser APIs + Supabase auth)
+export const dynamic = 'force-dynamic'
