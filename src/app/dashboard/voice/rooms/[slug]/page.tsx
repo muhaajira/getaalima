@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { useParams } from 'next/navigation'
-import { Room, RemoteParticipant, Track } from '@livekit/client'
+import { Room, RemoteParticipant, Track } from 'livekit-client'
 import { getRoom, disconnectFromRoom } from '@/lib/livekit'
 
 export default function VoiceRoomPage() {

@@ -1,4 +1,4 @@
-import { Room, RoomEvent } from '@livekit/client'
+import { Room, RoomEvent } from 'livekit-client'
 
 // This is a singleton to manage the LiveKit room connection.
 let room: Room | null = null
