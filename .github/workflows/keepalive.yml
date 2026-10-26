@@ -1,0 +1,42 @@
+name: Keep database awake
+
+# Supabase pauses free projects after 7 days of low activity.
+# This workflow pings the Supabase API once a day so the project
+# is never seen as inactive, and makes a tiny commit to the
+# keepalive branch so GitHub itself never disables this schedule.
+
+on:
+  schedule:
+    - cron: "30 3 * * *" # daily at 03:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase
+        env:
+          ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          BASE: https://ngsuwzjolvxkalzcixyk.supabase.co
+        run: |
+          echo "auth health: $(curl -s -o /dev/null -w '%{http_code}' "$BASE/auth/v1/health")"
+          if [ -n "$ANON_KEY" ]; then
+            echo "rest ping:   $(curl -s -o /dev/null -w '%{http_code}' -H "apikey: $ANON_KEY" "$BASE/rest/v1/centers?select=id&limit=1")"
+          else
+            echo "rest ping:   skipped (add the SUPABASE_ANON_KEY secret for a full database ping)"
+          fi
+
+      - name: Heartbeat commit
+        uses: actions/checkout@v4
+      - name: Record heartbeat on keepalive branch
+        run: |
+          git checkout -B keepalive
+          echo "last keepalive: $(date -u '+%Y-%m-%d %H:%M UTC')" > .keepalive
+          git config user.name "keepalive-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .keepalive
+          git commit -m "chore: keepalive heartbeat" || exit 0
+          git push -f origin keepalive
