@@ -116,5 +116,20 @@
     "newTicket": "New Ticket",
     "subject": "Subject",
     "priority": "Priority"
+  },
+  "research": {
+    "title": "Research Hub",
+    "subtitle": "Search the Qur'aan and Sunnah for your lessons",
+    "queryPlaceholder": "Search an ayah, hadith, or topic...",
+    "quran": "Qur'aan",
+    "hadith": "Hadith",
+    "both": "Both",
+    "searchBtn": "Search",
+    "searching": "Searching...",
+    "offline": "The research server is not connected yet.",
+    "offlineHint": "Once your ilm server is running and ILM_API_URL is set in Vercel, results will appear here.",
+    "noResults": "No results found. Try different words.",
+    "error": "Something went wrong reaching the research server.",
+    "note": "A research aid only. Verify evidences with a qualified teacher before teaching them."
   }
 }

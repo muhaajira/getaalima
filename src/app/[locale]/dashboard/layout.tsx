@@ -53,7 +53,8 @@ export default function DashboardLayout({
         { href: '/dashboard/finance', key: 'finance', icon: '◆' },
         { href: '/dashboard/marketing', key: 'marketing', icon: '✧' },
         { href: '/dashboard/voice', key: 'voice', icon: '♪' },
-        { href: '/dashboard/support/tickets', key: 'support', icon: '?' }
+        { href: '/dashboard/support/tickets', key: 'support', icon: '?' },
+        { href: '/dashboard/research', key: 'research', icon: '✵' }
     ]
 
     if (loading) {

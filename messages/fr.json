@@ -37,7 +37,8 @@
     "marketing": "Marketing",
     "voice": "Plateforme vocale",
     "support": "Assistance",
-    "notifications": "Notifications"
+    "notifications": "Notifications",
+    "research": "Centre de recherche"
   },
   "dashboard": {
     "title": "Tableau de bord",
@@ -116,5 +117,20 @@
     "newTicket": "Nouveau ticket",
     "subject": "Sujet",
     "priority": "Priorité"
+  },
+  "research": {
+    "title": "Centre de recherche",
+    "subtitle": "Cherchez dans le Coran et la Sunna pour vos leçons",
+    "queryPlaceholder": "Rechercher un verset, un hadith, un sujet...",
+    "quran": "Coran",
+    "hadith": "Hadith",
+    "both": "Les deux",
+    "searchBtn": "Rechercher",
+    "searching": "Recherche...",
+    "offline": "Le serveur de recherche n'est pas encore connecté.",
+    "offlineHint": "Dès que votre serveur de recherche tourne et que ILM_API_URL est défini dans Vercel, les résultats apparaîtront ici.",
+    "noResults": "Aucun résultat. Essayez d'autres mots.",
+    "error": "Erreur de connexion au serveur de recherche.",
+    "note": "Aide à la recherche uniquement. Vérifiez les preuves auprès d'un enseignant qualifié avant de les enseigner."
   }
 }
